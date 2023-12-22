@@ -5,8 +5,8 @@ We propose using [CosmoGraph](https://cosmograph.app/run/) website as a way to v
 
 You will need to use 2 csv files:
 
-- Records file: An adjacency list of source and target node ids. The csv file should have two columns: source,target.
-- Metadata file: A list of node ids with its metadata. The csv file should have two columns: id,color. Here color can be the community_id or the hex code of the color that you want.
+- Records file ([example](./examples/facebook_combined.csv)): An adjacency list of source and target node ids. The csv file should have two columns: source,target.
+- Metadata file ([example](./examples/communities-5.csv)): A list of node ids with its metadata. The csv file should have two columns: id,color. Here color can be the community_id or the hex code of the color that you want.
 
 Once you've entered these two file, set the node appearance color to be `metadata | color`.
 
